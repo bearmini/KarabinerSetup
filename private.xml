@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<root>
+  <item>
+    <name>Command_R + h to Left</name>
+    <identifier>private_command_r_h_ro_left</identifier>
+    <autogen>--KeyToKey--
+      KeyCode::H, ModifierFlag::COMMAND_R,
+      KeyCode::CURSOR_LEFT
+    </autogen>
+  </item>
+  <item>
+    <name>Command_R + j to Down</name>
+    <identifier>private_command_r_j_ro_down</identifier>
+    <autogen>--KeyToKey--
+      KeyCode::J, ModifierFlag::COMMAND_R,
+      KeyCode::CURSOR_DOWN
+    </autogen>
+  </item>
+  <item>
+    <name>Command_R + k to Up</name>
+    <identifier>private_command_r_k_ro_up</identifier>
+    <autogen>--KeyToKey--
+      KeyCode::K, ModifierFlag::COMMAND_R,
+      KeyCode::CURSOR_UP
+    </autogen>
+  </item>
+  <item>
+    <name>Command_R + l to Right</name>
+    <identifier>private_command_r_l_ro_right</identifier>
+    <autogen>--KeyToKey--
+      KeyCode::L, ModifierFlag::COMMAND_R,
+      KeyCode::CURSOR_RIGHT
+    </autogen>
+  </item>
+  <item>
+    <name>Command_R + d to delete</name>
+    <identifier>private_command_r_d_ro_delete</identifier>
+    <autogen>--KeyToKey--
+      KeyCode::D, ModifierFlag::COMMAND_R,
+      KeyCode::D, ModifierFlag::CONTROL_L
+    </autogen>
+  </item>
+  <item>
+    <name>Command_R + a to home</name>
+    <identifier>private_command_r_a_ro_home</identifier>
+    <autogen>--KeyToKey--
+      KeyCode::A, ModifierFlag::COMMAND_R,
+      KeyCode::CURSOR_LEFT, ModifierFlag::COMMAND_R
+    </autogen>
+  </item>
+  <item>
+    <name>Command_R + e to end</name>
+    <identifier>private_command_r_e_ro_end</identifier>
+    <autogen>--KeyToKey--
+      KeyCode::E, ModifierFlag::COMMAND_R,
+      KeyCode::CURSOR_RIGHT, ModifierFlag::COMMAND_R
+    </autogen>
+  </item>
+</root>
