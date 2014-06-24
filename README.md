@@ -1,6 +1,6 @@
 1. Install KeyRemap4MacBook
 
-2. Install PCKeyboardHack (to handle Caps Lock key)
+2. Install Seil (former PCKeyboardHack) (to handle Caps Lock key)
 
 3. System Preferences \> Keyboard \> Modifier Keys
 
@@ -9,7 +9,7 @@
     * Option  Key   : Option
     * Command Key   : Command
 
-4. System Preferences \> PCKeyboardHack
+4. Launchpad or Finder's Application folder \> Seil
 
     *  Check 'Change Caps Lock' and change the keycode to 59 (Control_L)
     *  Check 'Change Command_L' and change the keycode to 54 (Command_R)
