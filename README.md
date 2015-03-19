@@ -1,4 +1,4 @@
-1. Install KeyRemap4MacBook
+1. Install Karabiner (former KeyRemap4MacBook)
 
 2. Install Seil (former PCKeyboardHack) (to handle Caps Lock key)
 
