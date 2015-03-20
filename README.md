@@ -16,11 +16,11 @@
     *  Check 'Change Control_L' and change the keycode to 58 (Option_L)
     *  Check 'Change Option_L'  and change the keycode to 55 (Command_L)
 
-5. Replace the private.xml file in ~/Library/Application Support/KeyRemap4MacBook with the file in this repository.
+5. Replace the private.xml file in ~/Library/Application Support/Karabiner with the file in this repository.
 
-6. System Preferences > KeyRemap4MacBook
+6. Start Karabiner app from Launchpad or the status bar
 
     * Open 'Change Key'
-    * Check all remappings you want
     * Push 'Reload XML' button
+    * Check all remappings you want
 
