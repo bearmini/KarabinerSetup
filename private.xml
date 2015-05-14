@@ -1,5 +1,18 @@
 <?xml version="1.0"?>
 <root>
+  <appdef>
+    <appname>Atom</appname>
+    <equal>com.github.atom</equal>
+  </appdef>
+  <item>
+    <name>Leave Japanese input mode when ESC is pressed (exiting insert mode) in apps with vim keybind</name>
+    <identifier>private.leave_japanese_input_mode_when_esc_is_pressed_in_apps_with_vim_keybind</identifier>
+    <only>Atom</only>
+    <autogen>--KeyToKey--
+      KeyCode::ESCAPE,
+      KeyCode::ESCAPE, KeyCode::JIS_EISUU
+    </autogen>
+  </item>
   <item>
     <name>Command_R + h to Left</name>
     <identifier>private_command_r_h_ro_left</identifier>
