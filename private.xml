@@ -69,4 +69,13 @@
       KeyCode::CURSOR_RIGHT, ModifierFlag::COMMAND_R
     </autogen>
   </item>
+  
+  <item>
+    <name>Control_L + [ to ESC</name>
+    <identifier>private_control_l_left_bracket_ro_escape</identifier>
+    <autogen>--KeyToKey--
+      KeyCode::BRACKET_LEFT, ModifierFlag::CONTROL_L,
+      KeyCode::ESCAPE
+    </autogen>
+  </item>
 </root>
