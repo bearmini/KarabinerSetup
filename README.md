@@ -24,3 +24,11 @@
     * Push 'Reload XML' button
     * Check all remappings you want
 
+7. Tweak key repeat settings
+
+```
+defaults write NSGlobalDomain KeyRepeat -int 1
+defaults write NSGlobalDomain InitialKeyRepeat -int 10
+```
+
+You can get faster key repeat than setting in System Preferences
